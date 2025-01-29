@@ -1,0 +1,941 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Almin Akon</title>
+    <script src="assets/js/vendors/color-modes.js"></script>
+    <!-- Favicon icon-->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/logo/logo.svg" />
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="assets/css/vendors/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/vendors/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/vendors/aos.css" />
+    <link rel="stylesheet" href="assets/css/vendors/odometer.css" />
+    <link rel="stylesheet" href="assets/css/vendors/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/vendors/carouselTicker.css" />
+    <link rel="stylesheet" href="assets/fonts/bootstrap-icons/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="assets/fonts/boxicons/boxicons.min.css" />
+    <link rel="stylesheet" href="assets/fonts/fontawesome/fontawesome.min.css" />
+    <link rel="stylesheet" href="assets/fonts/fontawesome/brands.min.css" />
+    <link rel="stylesheet" href="assets/fonts/fontawesome/solid.min.css" />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+</head>
+
+<body class="magic-cursor position-relative">
+    <div class="follower">
+    </div>
+    <div class="cursor">
+        <span class="dot"></span>
+    </div> <!--Preloader-->
+    <div id="preloader">
+        <div id="loader" class="loader">
+            <div class="loader-container">
+                <div class="rays justify-content-center align-items-center d-flex"></div>
+            </div>
+        </div>
+    </div>
+    <!--Preloader-end -->
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg py-0 z-5 tcmenu__wrap">
+            <div class="d-flex p-4 p-lg-0 custom-container mx-auto justify-content-between align-items-center w-100">
+                <a class="navbar-brand fw-bold" href="javascript:void(0)" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+                    <i class="bi bi-list text-primary"></i>
+                    Menu
+                </a>
+                <div class="tcmenu__navbar-wrap tcmenu__main-menu d-none d-lg-flex">
+                    <ul class="navbar-nav mx-auto gap-4 align-items-lg-center navigation">
+                        <li class="nav-item dropdown menu-item-has-children">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="index.html">Home page 1</a></li>
+                                <li><a class="dropdown-item" href="index-2.html">Home page 2</a></li>
+                                <li><a class="dropdown-item" href="index-3.html">Home page 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown menu-item-has-children">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="portfolio.html">Portfolio-List</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="portfolio-details.html">Portfolio-Details</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item d-none d-lg-block">
+                            <a class="navbar-brand ms-lg-4 d-flex main-logo" href="index.html">
+                                <img src="assets/imgs/logo/favicon.svg" alt="inexa" />
+                                <span class="text-dark">Alamin</span>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown menu-item-has-children">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="blog-list.html">Blog list</a></li>
+                                <li><a class="dropdown-item" href="blog-details.html">Blog-details</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="faq.html">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="get-quote.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d-flex align-items-center me-lg-4 gap-4">
+                    <div class="dark-light-switcher d-flex justify-content-center align-items-center">
+                        <i class="bi theme-icon bi-sun-fill"></i>
+                        <i class="bi theme-icon bi-moon-stars-fill"></i>
+                    </div>
+
+                    <a href="get-quote.html" class="menu-tigger btn btn-outline-secondary d-none d-md-block"> Let’s Talk </a>
+                    <!--Mobile-->
+                    <div class="mobile-nav-toggler  d-lg-none rounded-circle bg-primary icon-shape icon-lg">
+                        <img src="assets/imgs/icon/dot-menu.png" alt="inexa" />
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- prettier-ignore -->
+        <!-- Mobile Menu  -->
+        <div class="tcmobile__menu">
+            <nav class="tcmobile__menu-box">
+                <div class="close-btn"><i class="fas fa-times"></i></div>
+                <div class="nav-logo">
+                    <a class="navbar-brand ms-lg-4 d-flex main-logo" href="index.html">
+                        <img src="assets/imgs/logo/favicon.svg" alt="inexa" />
+                        <span class="text-dark">Inexa</span>
+                    </a>
+                </div>
+                <div class="tcmobile__search">
+                    <form action="#">
+                        <input type="text" class="form-control shadow-none" placeholder="Search here..." />
+                        <button><i class="bi bi-search"></i></button>
+                    </form>
+                </div>
+                <div class="tcmobile__menu-outer"></div>
+
+                <div class="side-gallery mb-4 ps-4">
+                    <div class="pt-1"></div>
+                    <h4 class="mt-3 mb-3">Gallery</h4>
+                    <div class="grid-items">
+                        <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                            <img class="g-col-4" src="assets/imgs/gallery/gallery-1.png" alt="inexa" />
+                        </div>
+                        <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                            <img class="g-col-4" src="assets/imgs/gallery/gallery-2.png" alt="inexa" />
+                        </div>
+                        <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                            <img class="g-col-4" src="assets/imgs/gallery/gallery-3.png" alt="inexa" />
+                        </div>
+                        <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                            <img class="g-col-4" src="assets/imgs/gallery/gallery-4.png" alt="inexa" />
+                        </div>
+                        <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                            <img class="g-col-4" src="assets/imgs/gallery/gallery-5.png" alt="inexa" />
+                        </div>
+                        <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                            <img class="g-col-4" src="assets/imgs/gallery/gallery-6.png" alt="inexa" />
+                        </div>
+                        <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                            <img class="g-col-4" src="assets/imgs/gallery/gallery-7.png" alt="inexa" />
+                        </div>
+                        <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                            <img class="g-col-4" src="assets/imgs/gallery/gallery-8.png" alt="inexa" />
+                        </div>
+                        <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                            <img class="g-col-4" src="assets/imgs/gallery/gallery-9.png" alt="inexa" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tcmobile__menu-bottom">
+                    <div class="contact-info">
+                        <ul class="list-wrap list-unstyled">
+                            <li><a href="mailto:info@inexa.com">dev.alaminakon@gmail.com</a></li>
+                            <li><a href="tel:0123456789">+8801766823304</a></li>
+                        </ul>
+                    </div>
+                    <div class="social-links">
+                        <ul class="list-wrap">
+                            <li>
+                                <a href="https://www.facebook.com/" class=" text-reset">
+                                    <i class="bi bi-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/" class=" text-reset">
+                                    <i class="bi bi-twitter-x"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/" class=" text-reset">
+                                    <i class="bi bi-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/" class=" text-reset">
+                                    <i class="bi bi-youtube"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="tcmobile__menu-backdrop"></div>
+        <!-- End Mobile Menu -->
+
+        <div class="offCanvas__overly"></div>
+        <!-- offCanvas-menu -->
+        <!-- Offcanvas menu -->
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions">
+            <div class="offcanvas-header">
+                <div class="offcanvas-close">
+                    <button class="close-btn" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fas fa-times"></i></button>
+                </div>
+            </div>
+            <div class="offcanvas-body">
+                <div class="offCanvas__logo mb-3">
+                    <a class="navbar-brand ms-lg-4 d-flex main-logo me-8" href="index.html">
+                        <img src="assets/imgs/logo/favicon.svg" alt="inexa" />
+                        <span class="text-dark">Inexa</span>
+                    </a>
+                </div>
+                <div class="offCanvas__side-info mb-4">
+                    <div class="contact-list mb-4">
+                        <h4>Office Address</h4>
+                        <p>
+                            123/A, Miranda City Likaoli <br />
+                            Prikano, Dope
+                        </p>
+                    </div>
+                    <div class="contact-list mb-4">
+                        <h4>Phone Number</h4>
+                        <p>+0989 7876 9865 9</p>
+                        <p>+(090) 8765 86543 85</p>
+                    </div>
+                    <div class="contact-list mb-4">
+                        <h4>Email Address</h4>
+                        <p>info@inexa.com</p>
+                        <p>contact@inexa.com</p>
+                    </div>
+                </div>
+                <div class="side-gallery mb-4">
+                    <div class="pt-1"></div>
+                    <h4 class="mt-3 mb-3">Gallery</h4>
+                    <div class="grid-items">
+                        <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                            <img class="g-col-4" src="assets/imgs/gallery/gallery-1.png" alt="inexa" />
+                        </div>
+                        <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                            <img class="g-col-4" src="assets/imgs/gallery/gallery-2.png" alt="inexa" />
+                        </div>
+                        <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                            <img class="g-col-4" src="assets/imgs/gallery/gallery-3.png" alt="inexa" />
+                        </div>
+                        <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                            <img class="g-col-4" src="assets/imgs/gallery/gallery-4.png" alt="inexa" />
+                        </div>
+                        <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                            <img class="g-col-4" src="assets/imgs/gallery/gallery-5.png" alt="inexa" />
+                        </div>
+                        <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                            <img class="g-col-4" src="assets/imgs/gallery/gallery-6.png" alt="inexa" />
+                        </div>
+                        <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                            <img class="g-col-4" src="assets/imgs/gallery/gallery-7.png" alt="inexa" />
+                        </div>
+                        <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                            <img class="g-col-4" src="assets/imgs/gallery/gallery-8.png" alt="inexa" />
+                        </div>
+                        <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                            <img class="g-col-4" src="assets/imgs/gallery/gallery-9.png" alt="inexa" />
+                        </div>
+                    </div>
+                </div>
+                <div class="offCanvas__social-icon mt-30">
+                    <h6 class="text-secondary">Follow me:</h6>
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://x.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.google.com/" target="_blank"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- Offcanvas menu -->
+
+    </header>
+
+    <main class="overflow-hidden">
+        <div class="banner-line">
+            <div class="vertical-effect raindrop"></div>
+            <div class="vertical-effect"></div>
+            <div class="vertical-effect raindrop-reverse"></div>
+            <div class="vertical-effect"></div>
+            <div class="vertical-effect raindrop d-none d-lg-block"></div>
+            <div class="vertical-effect d-none d-lg-block"></div>
+            <div class="vertical-effect raindrop-reverse"></div>
+            <div class="vertical-effect d-none d-lg-block"></div>
+            <div class="vertical-effect"></div>
+            <div class="vertical-effect"></div>
+        </div> <!--home 2 Section 1-->
+        <section class="home2_section1 position-relative overflow-hidden pt-250 wow img-custom-anim-top">
+            <div class="containerposition-relative">
+                <div class="row text-center justify-content-center">
+                    <h1 class="fs-250 mb-0 lh-1">Alamin</h1>
+                    <a href="#" class="text-primary fs-250 fst-italic lh-1">Akon</a>
+                    <p class="fs-3">
+                        Based on Italy, a versatile creator specializing in Digital <br />
+                        and Interaction Design.
+                    </p>
+                    <div class="box-300 position-absolute bottom-0 start-50 translate-middle-x z-1 mb-12rem">
+                        <img class="rounded-circle parallax-item" src="assets/imgs/avatar/akon.png" alt="inexa" />
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-move-left">
+                <div class="text-move">
+                    <div class="d-flex gap-5 pt-250  wow img-custom-anim-top">
+                        <p class="stroke_primary_xl ms-5 me-5">fakebook. behance. dribbble</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--home 2 Section 2-->
+        <section class="home2_section2 pt-120">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 pe-lg-8 text-center">
+                        <div class="zoom-img rounded-3 d-inline-flex overflow-hidden  wow img-custom-anim-top">
+                            <div class="parallax-item">
+                                <img src="assets/imgs/background/img-about-1.png" alt="inexa" />
+                            </div>
+                        </div>
+                        <div class="row pt-10  wow img-custom-anim-top">
+                            <div class="col-md-6 pe-md-6">
+                                <div class="text-primary fw-normal fs-7 text-uppercase text-decoration-underline">(projects done)</div>
+                                <h2 class="d-flex align-items-center justify-content-center">
+                                    <span>+</span>
+                                    <span class="odometer fw-bold ds-4" data-count="25"></span>
+                                    <span class="stroke_light_md ds-5">k</span>
+                                </h2>
+                                <p>I've navigated 200+ projects, each a unique chapter in my journey of creative exploration.</p>
+                            </div>
+                            <div class="col-md-6 pe-md-6">
+                                <div class="text-primary fw-normal fs-7 text-uppercase text-decoration-underline">(client reviews)</div>
+                                <h2 class="d-flex align-items-center justify-content-center">
+                                    <span>+</span>
+                                    <span class="odometer fw-bold ds-4" data-count="12"></span>
+                                    <span class="stroke_light_md ds-5">k</span>
+                                </h2>
+                                <p>My commitment exceeds limits—110% dedicated to the success and impact of every project.</p>
+                            </div>
+                        </div>
+                        <div class="row border-top border-2 border-primary pt-3 mt-7">
+                            <p>Hire me for your next project. <a href="get-quote.html" class="fw-bold"> Let’s Talk!</a></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 ps-lg-8 pt-lg-0 pt-5">
+                        <div class="  wow img-custom-anim-top">
+                            <div class="text-primary fw-normal fs-7 text-uppercase text-decoration-underline">About Me</div>
+                            <h1 class="fw-bold ds-5">Creative soul dedicated to transforming visions into premium assets.</h1>
+                            <p class="mt-4">
+                                You may also realize cost savings from your energy efficient choices in your custom home. Federal tax credits for some green materials can allow you to
+                                deduct as much.
+                            </p>
+                        </div>
+                        <div class="zoom-img rounded-3 d-inline-flex mt-lg-10 mt-5  wow img-custom-anim-top">
+                            <div class="parallax-item">
+                                <img src="assets/imgs/background/img-about-2.png" alt="inexa" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--home 2 Section 1-->
+        <section class="home2_section1  pt-120 overflow-hidden">
+            <div class="container border-top border-dark">
+                <div class="row">
+                    <div class="col-lg-2 px-0">
+                        <div class="position-relative mt-9 bg-white icon_160 icon-shape rounded-circle shadow">
+                            <img class="position-relative" src="assets/imgs/icon/badge-icon.png" alt="inexa" />
+                            <div class="position-absolute top-50 start-50 translate-middle w-75">
+                                <img class="ribbonRotate dark-reverse" src="assets/imgs/icon/badge-text.png" alt="inexa" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-10 ps-lg-5">
+                        <p class="stroke_blur_right wow img-custom-anim-left">expertise</p>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-5">
+                                <div class="experti-1 wow img-custom-anim-top">
+                                    <img src="assets/imgs/icon/icon.png" alt="inexa" />
+                                    <h1>Branding</h1>
+                                    <p>Elevate your presence with distinctive logos, color palettes, and brand guidelines that leave a lasting impression.</p>
+                                </div>
+                                <div class="experti-1 wow img-custom-anim-top pt-10">
+                                    <img src="assets/imgs/icon/icon-9.png" alt="inexa" />
+                                    <h1>Consultancy</h1>
+                                    <p>Elevate your presence with distinctive logos, color palettes, and brand guidelines that leave a lasting impression.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-5 offset-md-1">
+                                <div class="experti-1 wow img-custom-anim-top">
+                                    <img src="assets/imgs/icon/icon-8.png" alt="inexa" />
+                                    <h1>Product design</h1>
+                                    <p>Elevate your presence with distinctive logos, color palettes, and brand guidelines that leave a lasting impression.</p>
+                                </div>
+                                <div class="experti-1 wow img-custom-anim-top pt-10">
+                                    <img src="assets/imgs/icon/icon-10.png" alt="inexa" />
+                                    <h1>Architecture</h1>
+                                    <p>Elevate your presence with distinctive logos, color palettes, and brand guidelines that leave a lasting impression.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--home 2 Section4-->
+        <section class="home2_section4">
+            <div class="container">
+                <div class="row justify-content-center pb-120 wow img-custom-anim-top">
+                    <a href="#testimonials" class="icon_hover icon-shape icon_160 rounded-circle position-relative overflow-hidden mt-10 bg-dark hover-down" data-bs-toggle="tooltip" data-bs-title="Testimonials">
+                        <span class="icon-shape icon-md bg-primary rounded-circle position-absolute bottom-0 end-0"></span>
+                        <p class="m-0 text-uppercase text-secondary position-absolute top-50 start-50 translate-middle">
+                            <img src="assets/imgs/icon/arrow-down.png" alt="inexa" />
+                        </p>
+                    </a>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 pe-lg-5">
+                        <div class="text-primary fw-normal fs-7 text-uppercase text-decoration-underline wow img-custom-anim-left">(projects done)</div>
+                        <h1 class="ds-5 wow img-custom-anim-left">Featured works</h1>
+                        <div class="card-portfolio wow img-custom-anim-top">
+                            <div class="zoom-img rounded-4 d-inline-flex mt-5">
+                                <a href="portfolio-details.html">
+                                    <img src="assets/imgs/background/img-portfolio-1.png" alt="inexa" />
+                                </a>
+                            </div>
+                            <div class="d-flex mt-4 align-items-center justify-content-between pe-md-5">
+                                <h2 class="text-capitalize">Design Vision</h2>
+                                <a href="portfolio.html" class="text-primary fw-normal fs-7 text-uppercase text-decoration-underline">(ui, ux)</a>
+                            </div>
+                        </div>
+                        <div class="card-portfolio wow img-custom-anim-top mt-5">
+                            <div class="zoom-img rounded-4 d-inline-flex mt-5">
+                                <a href="portfolio-details.html">
+                                    <img src="assets/imgs/background/img-portfolio-2.png" alt="inexa" />
+                                </a>
+                            </div>
+                            <div class="d-flex mt-4 align-items-center justify-content-between pe-md-5">
+                                <h2 class="text-capitalize">Blendify Works</h2>
+                                <a href="portfolio.html" class="text-primary fw-normal fs-7 text-uppercase text-decoration-underline">(ui, ux)</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 ps-lg-8">
+                        <p class="mt-8 mt-lg-0 wow img-custom-anim-left wow img-custom-anim-top">
+                            Dive into my work. A showcase of digital excellence and innovation. Here I have shown amazing works
+                        </p>
+                        <a href="portfolio.html" class="text-primary fw-normal fs-7 text-uppercase text-decoration-underline wow img-custom-anim-top">view all</a>
+                        <div class="card-portfolio wow img-custom-anim-top mt-lg-10 mt-5">
+                            <div class="zoom-img rounded-4 d-inline-flex mt-5">
+                                <a href="portfolio-details.html">
+                                    <img src="assets/imgs/background/img-portfolio-3.png" alt="inexa" />
+                                </a>
+                            </div>
+                            <div class="d-flex mt-4 align-items-center justify-content-between pe-md-5">
+                                <h2 class="text-capitalize">VividGrove App</h2>
+                                <a href="portfolio.html" class="text-primary fw-normal fs-7 text-uppercase text-decoration-underline">(ui, ux)</a>
+                            </div>
+                        </div>
+                        <div class="card-portfolio wow img-custom-anim-top mt-5">
+                            <div class="zoom-img rounded-4 d-inline-flex mt-5">
+                                <a href="portfolio-details.html">
+                                    <img src="assets/imgs/background/img-portfolio-4.png" alt="inexa" />
+                                </a>
+                            </div>
+                            <div class="d-flex mt-4 align-items-center justify-content-between pe-md-5">
+                                <h2 class="text-capitalize">DesignoPro App</h2>
+                                <a href="portfolio.html" class="text-primary fw-normal fs-7 text-uppercase text-decoration-underline">(ui, ux)</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center wow img-custom-anim-top">
+                    <a href="get-quote.html" class="icon_hover icon-shape icon_160 border rounded-circle position-relative overflow-hidden mt-10 bg-white hover-up">
+                        <span class="icon-shape icon-md bg-primary rounded-circle position-absolute bottom-0 end-0"></span>
+                        <p class="m-0 text-uppercase text-secondary position-absolute top-50 start-50 translate-middle">
+                            hire me for <br /><span class="text-dark fw-bold">next project</span>
+                        </p>
+                    </a>
+                </div>
+                <div class="row pb-120 wow img-custom-anim-top">
+                    <div class="scroll-wrapper">
+                        <div class="item item1">
+                            <div class="d-flex align-items-center justify-content-center gap-3">
+                                <img src="assets/imgs/icon/icon-1.png" alt="brand" />
+                                <h2 class="m-0 text-dark">Astro</h2>
+                            </div>
+                        </div>
+                        <div class="item item2">
+                            <div class="d-flex align-items-center justify-content-center gap-3">
+                                <img src="assets/imgs/icon/icon-2.png" alt="brand" />
+                                <h2 class="m-0 text-dark">Purei</h2>
+                            </div>
+                        </div>
+                        <div class="item item3">
+                            <div class="d-flex align-items-center justify-content-center gap-3">
+                                <img src="assets/imgs/icon/icon-3.png" alt="brand" />
+                                <h2 class="m-0 text-dark">Freshzi</h2>
+                            </div>
+                        </div>
+                        <div class="item item4">
+                            <div class="d-flex align-items-center justify-content-center gap-3">
+                                <img src="assets/imgs/icon/icon-4.png" alt="brand" />
+                                <h2 class="m-0 text-dark">YellPure</h2>
+                            </div>
+                        </div>
+                        <div class="item item5">
+                            <div class="d-flex align-items-center justify-content-center gap-3">
+                                <img src="assets/imgs/icon/icon-5.png" alt="brand" />
+                                <h2 class="m-0 text-dark">ai.core</h2>
+                            </div>
+                        </div>
+                        <div class="item item6">
+                            <div class="d-flex align-items-center justify-content-center gap-3">
+                                <img src="assets/imgs/icon/icon-1.png" alt="brand" />
+                                <h2 class="m-0 text-dark">Astro</h2>
+                            </div>
+                        </div>
+                        <div class="item item7">
+                            <div class="d-flex align-items-center justify-content-center gap-3">
+                                <img src="assets/imgs/icon/icon-2.png" alt="brand" />
+                                <h2 class="m-0 text-dark">Purei</h2>
+                            </div>
+                        </div>
+                        <div class="item item8">
+                            <div class="d-flex align-items-center justify-content-center gap-3">
+                                <img src="assets/imgs/icon/icon-3.png" alt="brand" />
+                                <h2 class="m-0 text-dark">Freshzi</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--home 2 Section 1-->
+        <section id="testimonials" class="home2_section1 section-padding bg-secondary-1">
+            <div class="container">
+                <div class="row text-center wow img-custom-anim-top">
+                    <div class="text-primary fw-normal fs-7 text-uppercase text-decoration-underline">testimonials</div>
+                    <h1 class="ds-5 mt-3">Happy Users Feedback</h1>
+                </div>
+            </div>
+            <div class="swiper slider-3 py-10 wow img-custom-anim-top">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card_faq card-hover p-7 bg-white rounded-4">
+                            <div class="group_star">
+                                <div class="d-flex  gap-1 align-items-center px-3 py-2 border rounded-pill d-inline-flex">
+                                    <i class="bi bi-star-fill fs-8 text-primary"></i>
+                                    <i class="bi bi-star-fill fs-8 text-primary"></i>
+                                    <i class="bi bi-star-fill fs-8 text-primary"></i>
+                                    <i class="bi bi-star-fill fs-8 text-primary"></i>
+                                    <i class="bi bi-star-fill fs-8 text-primary"></i>
+                                </div>
+                            </div>
+                            <p class="ds-xs-6 text-black mt-5">
+                                <span class="opacity-25">“</span>
+                                Exceptional service! My website never looked better. Truly top-notch stylists and unmatched personalized care. This is one of my favorite places to visit
+                                for a ui/ux website procedure and a regular.
+                                <span class="opacity-25">”</span>
+                            </p>
+                            <div class="card_faq_item d-flex mt-6 justify-content-between">
+                                <a href="#">
+                                    <h4>Miranda H. Halim</h4>
+                                    <p class="text-primary fw-normal fs-7 text-uppercase mb-0">FOUNDER & CEO</p>
+                                </a>
+                                <div class="avatar icon-xxl">
+                                    <img class="rounded-circle" src="assets/imgs/avatar/avatar-5.png" alt="inexa" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card_faq card-hover p-7 bg-white rounded-4">
+                            <div class="group_star">
+                                <div class="d-flex  gap-1 align-items-center px-3 py-2 border rounded-pill d-inline-flex">
+                                    <i class="bi bi-star-fill fs-8 text-primary"></i>
+                                    <i class="bi bi-star-fill fs-8 text-primary"></i>
+                                    <i class="bi bi-star-fill fs-8 text-primary"></i>
+                                    <i class="bi bi-star-fill fs-8 text-primary"></i>
+                                    <i class="bi bi-star-fill fs-8 text-primary"></i>
+                                </div>
+                            </div>
+                            <p class="ds-xs-6 text-black mt-5">
+                                <span class="opacity-25">“</span>
+                                Exceptional service! My website never looked better. Truly top-notch stylists and unmatched personalized care. This is one of my favorite places to visit
+                                for a ui/ux website procedure and a regular.
+                                <span class="opacity-25">”</span>
+                            </p>
+                            <div class="card_faq_item d-flex mt-6 justify-content-between">
+                                <a href="#">
+                                    <h4>Miranda H. Halim</h4>
+                                    <p class="text-primary fw-normal fs-7 text-uppercase mb-0">FOUNDER & CEO</p>
+                                </a>
+                                <div class="avatar icon-xxl">
+                                    <img class="rounded-circle" src="assets/imgs/avatar/avatar-3.png" alt="inexa" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card_faq card-hover p-7 bg-white rounded-4">
+                            <div class="group_star">
+                                <div class="d-flex  gap-1 align-items-center px-3 py-2 border rounded-pill d-inline-flex">
+                                    <i class="bi bi-star-fill fs-8 text-primary"></i>
+                                    <i class="bi bi-star-fill fs-8 text-primary"></i>
+                                    <i class="bi bi-star-fill fs-8 text-primary"></i>
+                                    <i class="bi bi-star-fill fs-8 text-primary"></i>
+                                    <i class="bi bi-star-fill fs-8 text-primary"></i>
+                                </div>
+                            </div>
+                            <p class="ds-xs-6 text-black mt-5">
+                                <span class="opacity-25">“</span>
+                                Exceptional service! My website never looked better. Truly top-notch stylists and unmatched personalized care. This is one of my favorite places to visit
+                                for a ui/ux website procedure and a regular.
+                                <span class="opacity-25">”</span>
+                            </p>
+                            <div class="card_faq_item d-flex mt-6 justify-content-between">
+                                <a href="#">
+                                    <h4>Miranda H. Halim</h4>
+                                    <p class="text-primary fw-normal fs-7 text-uppercase mb-0">FOUNDER & CEO</p>
+                                </a>
+                                <div class="avatar icon-xxl">
+                                    <img class="rounded-circle" src="assets/imgs/avatar/avatar-6.png" alt="inexa" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card_faq card-hover p-7 bg-white rounded-4">
+                            <div class="group_star">
+                                <div class="d-flex  gap-1 align-items-center px-3 py-2 border rounded-pill d-inline-flex">
+                                    <i class="bi bi-star-fill fs-8 text-primary"></i>
+                                    <i class="bi bi-star-fill fs-8 text-primary"></i>
+                                    <i class="bi bi-star-fill fs-8 text-primary"></i>
+                                    <i class="bi bi-star-fill fs-8 text-primary"></i>
+                                    <i class="bi bi-star-fill fs-8 text-primary"></i>
+                                </div>
+                            </div>
+                            <p class="ds-xs-6 text-black mt-5">
+                                <span class="opacity-25">“</span>
+                                Exceptional service! My website never looked better. Truly top-notch stylists and unmatched personalized care. This is one of my favorite places to visit
+                                for a ui/ux website procedure and a regular.
+                                <span class="opacity-25">”</span>
+                            </p>
+                            <div class="card_faq_item d-flex mt-6 justify-content-between">
+                                <a href="#">
+                                    <h4>Miranda H. Halim</h4>
+                                    <p class="text-primary fw-normal fs-7 text-uppercase mb-0">FOUNDER & CEO</p>
+                                </a>
+                                <div class="avatar icon-xxl">
+                                    <img class="rounded-circle" src="assets/imgs/avatar/avatar-5.png" alt="inexa" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card_faq card-hover p-7 bg-white rounded-4">
+                            <div class="group_star">
+                                <div class="d-flex  gap-1 align-items-center px-3 py-2 border rounded-pill d-inline-flex">
+                                    <i class="bi bi-star-fill fs-8 text-primary"></i>
+                                    <i class="bi bi-star-fill fs-8 text-primary"></i>
+                                    <i class="bi bi-star-fill fs-8 text-primary"></i>
+                                    <i class="bi bi-star-fill fs-8 text-primary"></i>
+                                    <i class="bi bi-star-fill fs-8 text-primary"></i>
+                                </div>
+                            </div>
+                            <p class="ds-xs-6 text-black mt-5">
+                                <span class="opacity-25">“</span>
+                                Exceptional service! My website never looked better. Truly top-notch stylists and unmatched personalized care. This is one of my favorite places to visit
+                                for a ui/ux website procedure and a regular.
+                                <span class="opacity-25">”</span>
+                            </p>
+                            <div class="card_faq_item d-flex mt-6 justify-content-between">
+                                <a href="#">
+                                    <h4>Miranda H. Halim</h4>
+                                    <p class="text-primary fw-normal fs-7 text-uppercase mb-0">FOUNDER & CEO</p>
+                                </a>
+                                <div class="avatar icon-xxl">
+                                    <img class="rounded-circle" src="assets/imgs/avatar/avatar-3.png" alt="inexa" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card_faq card-hover p-7 bg-white rounded-4">
+                            <div class="group_star">
+                                <div class="d-flex  gap-1 align-items-center px-3 py-2 border rounded-pill d-inline-flex">
+                                    <i class="bi bi-star-fill fs-8 text-primary"></i>
+                                    <i class="bi bi-star-fill fs-8 text-primary"></i>
+                                    <i class="bi bi-star-fill fs-8 text-primary"></i>
+                                    <i class="bi bi-star-fill fs-8 text-primary"></i>
+                                    <i class="bi bi-star-fill fs-8 text-primary"></i>
+                                </div>
+                            </div>
+                            <p class="ds-xs-6 text-black mt-5">
+                                <span class="opacity-25">“</span>
+                                Exceptional service! My website never looked better. Truly top-notch stylists and unmatched personalized care. This is one of my favorite places to visit
+                                for a ui/ux website procedure and a regular.
+                                <span class="opacity-25">”</span>
+                            </p>
+                            <div class="card_faq_item d-flex mt-6 justify-content-between">
+                                <a href="#">
+                                    <h4>Miranda H. Halim</h4>
+                                    <p class="text-primary fw-normal fs-7 text-uppercase mb-0">FOUNDER & CEO</p>
+                                </a>
+                                <div class="avatar icon-xxl">
+                                    <img class="rounded-circle" src="assets/imgs/avatar/avatar-6.png" alt="inexa" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!--home 2 Section 6-->
+        <section class="home2_section6 pt-120 pb-120">
+            <div class="container">
+                <div class="row justify-content-center text-center wow img-custom-anim-top">
+                    <div class="position-relative icon_150 bg-transparent rounded-circle">
+                        <img class="position-relative z-1" src="assets/imgs/icon/badge-icon-1.png" alt="inexa" />
+                        <div class="position-absolute top-50 start-50 translate-middle w-100">
+                            <img class="ribbonRotate dark-reverse" src="assets/imgs/icon/badge-1.png" alt="inexa" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center position-relative">
+                        <h1 class="stroke_center wow img-custom-anim-top">rewards</h1>
+                        <div class="overlay_light mt-10 position-absolute top-50 start-50 translate-middle z-0">
+                            <img class="wow img-custom-anim-top" src="assets/imgs/human/human-2.png" alt="inexa" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row position-relative z-1 wow img-custom-anim-top pt-3">
+                    <div class="col">
+                        <a href="#">
+                            <img class="hover-up" src="assets/imgs/background/img-rewards-1.png" alt="inexa" />
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="#"><img class="hover-up" src="assets/imgs/background/img-rewards-2.png" alt="inexa" /></a>
+                    </div>
+                    <div class="col">
+                        <a href="#"><img class="hover-up" src="assets/imgs/background/img-rewards-3.png" alt="inexa" /></a>
+                    </div>
+                    <div class="col">
+                        <a href="#"><img class="hover-up" src="assets/imgs/background/img-rewards-4.png" alt="inexa" /></a>
+                    </div>
+                    <div class="col">
+                        <a href="#"><img class="hover-up" src="assets/imgs/background/img-rewards-5.png" alt="inexa" /></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--home 2 Section 7-->
+        <section class="home2_section7">
+            <div class="container pt-120 pb-120 border-top border-dark">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="zoom-img rounded-4 d-inline-flex wow img-custom-anim-left">
+                            <img src="assets/imgs/background/img-contact.png" alt="inexa" />
+                        </div>
+                    </div>
+                    <div class="col-lg-6 px-lg-8 pt-lg-0 pt-10 wow img-custom-anim-top">
+                        <div class="text-primary fw-normal fs-7 text-uppercase text-decoration-underline">contact me</div>
+                        <h1 class="fw-bold ds-5 mt-4">Have any question?</h1>
+                        <p class="mb-5">You may also realize cost savings from your energy efficient choices in your custom home.</p>
+                        <form action="#">
+                            <div class="row mt-5">
+                                <div class="col-md-6">
+                                    <div class="input-group">
+                                        <i class="bi bi-person-fill text-dark d-flex bg-secondary-1 py-3 rounded-start-4 ps-3 align-items-center"></i>
+                                        <input type="text" class="form-control border-0 rounded-end-4 bg-secondary-1" placeholder="Your name" aria-label="Recipient's username" />
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mt-3 mt-md-0">
+                                    <div class="input-group">
+                                        <i class="bi bi-envelope-open-fill text-dark d-flex bg-secondary-1 py-3 rounded-start-4 ps-3 align-items-center"></i>
+                                        <input type="text" class="form-control border-0 rounded-end-4 bg-secondary-1" placeholder="info@" aria-label="Username" />
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="input-group mt-3">
+                                        <i class="bi bi-pencil-fill text-dark bg-secondary-1 rounded-start-4 pt-3 ps-3 d-flex align-items-start"></i>
+                                        <textarea class="form-control border-0 rounded-end-4 bg-secondary-1 rounded-0 pb-10 pt-3" placeholder="Describe Your Project in Short" aria-label="With textarea"></textarea>
+                                    </div>
+                                </div>
+                        </form>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-dark mt-3">Sign in</button>
+                        </div>
+                    </div>
+                    </form>
+                </div>
+            </div>
+            </div>
+        </section>
+
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-home1 bg-black bg-dark-black pt-120 positon-relative overflow-hidden">
+            <div class="container mb-10">
+                <div class="row">
+                    <div class="col-12 d-flex align-items-center">
+                        <div>
+                            <h1 class="text-white fs-120 wow img-custom-anim-left">
+                                Let’s have a<br />
+                                <span class="fst-italic text-primary pe-3 ps-lg-8">conversation!</span>
+                            </h1>
+                        </div>
+                        <div class="align-self-end mb-10 d-none d-lg-block wow img-custom-anim-left">
+                            <img class="positon-absolute" src="assets/imgs/icon/line.png" alt="inexa" />
+                        </div>
+                        <div>
+                            <a href="get-quote.html" class="card-hover icon-shape rounded-circle icon_140 bg-white">let’s talk</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container pb-120">
+                <div class="row">
+                    <div class="col-lg-3 mb-5 mb-lg-0 wow img-custom-anim-left">
+                        <img src="assets/imgs/logo/logo-white.svg" alt="logo" />
+                        <p class="mt-5">
+                            You may also realize cost savings from your energy efficient choices in your custom home. Federal tax credits for some green materials can allow you to
+                            deduct as much.
+                        </p>
+                        <div class="d-flex gap-4">
+                            <a href="https://www.facebook.com/" class="text-reset">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                            <a href="https://twitter.com/" class="text-reset">
+                                <i class="bi bi-twitter-x"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" class="text-reset">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                            <a href="https://www.youtube.com/" class="text-reset">
+                                <i class="bi bi-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 offset-lg-2 wow img-custom-anim-top">
+                        <div class="row">
+                            <div class="col-md-4 ps-5 ps-md-3">
+                                <h4 class="text-white mb-5">Get in touch</h4>
+                                <a href="tel:+12345678900" class="d-flex align-items-start mb-3 text-secondary">
+                                    <i class="bi bi-telephone-fill text-white me-3"></i>+8801766823304
+                                </a>
+                                <a href="mailto:hello@inexa" class="d-flex align-items-start mb-3 text-secondary">
+                                    <i class="bi bi-envelope-open-fill me-3 text-white"></i>dev.alaminakon@gmail.com
+                                </a>
+                                <a href="https://www.google.com/maps" class="d-flex align-items-start mb-3 text-secondary">
+                                    <i class="bi bi-geo-alt-fill me-3 text-white"></i>12/A, New Booston Tower,<br />NYC, USA
+                                </a>
+                            </div>
+                            <div class="col-md-4 ps-5 col-6 ps-md-8">
+                                <h4 class="text-white mb-5">Essectial</h4>
+                                <ul class="list-unstyled">
+                                    <li class=" mb-3">
+                                        <a class="text-secondary" href="index.html"> Home </a>
+                                    </li>
+                                    <li class=" mb-3">
+                                        <a class="text-secondary" href="#"> About </a>
+                                    </li>
+                                    <li class=" mb-3">
+                                        <a class="text-secondary" href="#"> Services </a>
+                                    </li>
+                                    <li class=" mb-3">
+                                        <a class="text-secondary" href="#"> Pricing </a>
+                                    </li>
+                                    <li class=" mb-3">
+                                        <a class="text-secondary" href="#"> FAQ </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4 col-6">
+                                <ul class="list-unstyled mt-8">
+                                    <li class="mb-3">
+                                        <a class="text-secondary" href="#"> Careers </a>
+                                    </li>
+                                    <li class="mb-3">
+                                        <a class="text-secondary" href="get-quote.html"> Contact </a>
+                                    </li>
+                                    <li class="mb-3">
+                                        <a class="text-secondary" href="#"> Refund Policy </a>
+                                    </li>
+                                    <li class="mb-3">
+                                        <a class="text-secondary" href="#"> Design System </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col bg-dark py-4 d-flex justify-content-center">
+            <p class=" mb-0">Copyright & Design &nbsp;<a class="fw-bold text-white" href="https://alithemes.com" target="_blank">@AliThemes</a>&nbsp;-&nbsp;2024</p>
+        </div>
+    </footer>
+    <!-- Scroll top -->
+    <div class="btn-scroll-top">
+        <svg class="progress-square svg-content" width="100%" height="100%" viewBox="0 0 40 40">
+            <path d="M8 1H32C35.866 1 39 4.13401 39 8V32C39 35.866 35.866 39 32 39H8C4.13401 39 1 35.866 1 32V8C1 4.13401 4.13401 1 8 1Z" />
+        </svg>
+    </div>
+    <!-- Libs JS -->
+    <script src="assets/js/vendors/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/vendors/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/vendors/swiper-bundle.min.js"></script>
+    <script src="assets/js/vendors/aos.js"></script>
+    <script src="assets/js/vendors/wow.min.js"></script>
+    <script src="assets/js/vendors/jquery.appear.js"></script>
+    <script src="assets/js/vendors/jquery.odometer.min.js"></script>
+    <script src="assets/js/vendors/headhesive.min.js"></script>
+    <script src="assets/js/vendors/smart-stick-nav.js"></script>
+    <script src="assets/js/vendors/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/vendors/gsap.min.js"></script>
+    <script src="assets/js/vendors/ScrollToPlugin.min.js"></script>
+    <script src="assets/js/vendors/ScrollTrigger.min.js"></script>
+    <script src="assets/js/vendors/custom-cursor.js"></script>
+    <script src="assets/js/vendors/jquery.carouselTicker.min.js"></script>
+    <script src="assets/js/vendors/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/vendors/isotope.pkgd.min.js"></script>
+    <!-- Theme JS -->
+    <script src="assets/js/gsap-custom.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <!-- Other scripts -->
+</body>
+
+</html>

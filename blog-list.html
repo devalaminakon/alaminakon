@@ -1,0 +1,728 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- prettier-ignore -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Blog List - Almin Akon</title>
+    <script src="assets/js/vendors/color-modes.js"></script>
+    <!-- Favicon icon-->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/template/favicon.svg" />
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="assets/css/vendors/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/vendors/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/vendors/aos.css" />
+    <link rel="stylesheet" href="assets/css/vendors/odometer.css" />
+    <link rel="stylesheet" href="assets/css/vendors/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/vendors/carouselTicker.css" />
+    <link rel="stylesheet" href="assets/fonts/bootstrap-icons/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="assets/fonts/boxicons/boxicons.min.css" />
+    <link rel="stylesheet" href="assets/fonts/fontawesome/fontawesome.min.css" />
+    <link rel="stylesheet" href="assets/fonts/fontawesome/brands.min.css" />
+    <link rel="stylesheet" href="assets/fonts/fontawesome/solid.min.css" />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+</head>
+
+<body class="magic-cursor2">
+    <div class="follower">
+    </div>
+    <div class="cursor">
+        <span class="dot"></span>
+    </div>
+    <!--Preloader-->
+    <div id="preloader">
+        <div id="loader" class="loader">
+            <div class="loader-container">
+                <div class="rays justify-content-center align-items-center d-flex"></div>
+            </div>
+        </div>
+    </div>
+    <!--Preloader-end -->
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar custom-container navbar-light start-50 translate-middle-x navbar-expand-lg py-0 mt-lg-4 mt-3 z-5 tcmenu__wrap">
+            <div class="d-flex p-3 p-lg-0 justify-content-between align-items-center w-100">
+                <!--Logo-->
+                <a class="navbar-brand ms-lg-4 d-flex main-logo" href="index.html">
+                    <img src="assets/imgs/logo/favicon.svg" alt="inexa" />
+                    <span class="text-dark">Inexa</span>
+                </a>
+                <div class="tcmenu__navbar-wrap tcmenu__main-menu d-none d-lg-flex">
+                    <ul class="navbar-nav me-auto gap-4 align-items-lg-center navigation">
+                        <li class="nav-item dropdown menu-item-has-children">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="index.html">Home page 1</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="index-2.html">Home page 2</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="index-3.html">Home page 3</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown menu-item-has-children">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="portfolio.html">Portfolio-List</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="portfolio-details.html">Portfolio-Details</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown menu-item-has-children">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="blog-list.html">Blog list</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="blog-details.html">Blog-details</a>
+                                </li>
+                        </li>
+                    </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="get-quote.html">Contact</a>
+                    </li>
+                    </ul>
+                </div>
+                <div class="d-flex align-items-center me-lg-4 gap-4">
+                    <div class="dark-light-switcher d-flex justify-content-center align-items-center">
+                        <i class="bi theme-icon bi-sun-fill"></i>
+                        <i class="bi theme-icon bi-moon-stars-fill"></i>
+                    </div>
+
+                    <a href="get-quote.html" class="menu-tigger btn btn-outline-secondary d-none d-md-block"> Let’s Talk </a>
+                    <!--Mobile-->
+                    <div class="mobile-nav-toggler  d-lg-none rounded-circle bg-primary icon-shape icon-lg">
+                        <img src="assets/imgs/icon/dot-menu.png" alt="inexa" />
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- prettier-ignore -->
+        <!-- Mobile Menu  -->
+        <div class="tcmobile__menu">
+            <nav class="tcmobile__menu-box">
+                <div class="close-btn"><i class="fas fa-times"></i></div>
+                <div class="nav-logo">
+                    <a class="navbar-brand ms-lg-4 d-flex main-logo" href="index.html">
+                        <img src="assets/imgs/logo/favicon.svg" alt="inexa" />
+                        <span class="text-dark">Inexa</span>
+                    </a>
+                </div>
+                <div class="tcmobile__search">
+                    <form action="#">
+                        <input type="text" class="form-control shadow-none" placeholder="Search here..." />
+                        <button><i class="bi bi-search"></i></button>
+                    </form>
+                </div>
+                <div class="tcmobile__menu-outer"></div>
+
+                <div class="side-gallery mb-4 ps-4">
+                    <div class="pt-1"></div>
+                    <h4 class="mt-3 mb-3">Gallery</h4>
+                    <div class="grid-items">
+                        <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                            <img class="g-col-4" src="assets/imgs/gallery/gallery-1.png" alt="inexa" />
+                        </div>
+                        <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                            <img class="g-col-4" src="assets/imgs/gallery/gallery-2.png" alt="inexa" />
+                        </div>
+                        <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                            <img class="g-col-4" src="assets/imgs/gallery/gallery-3.png" alt="inexa" />
+                        </div>
+                        <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                            <img class="g-col-4" src="assets/imgs/gallery/gallery-4.png" alt="inexa" />
+                        </div>
+                        <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                            <img class="g-col-4" src="assets/imgs/gallery/gallery-5.png" alt="inexa" />
+                        </div>
+                        <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                            <img class="g-col-4" src="assets/imgs/gallery/gallery-6.png" alt="inexa" />
+                        </div>
+                        <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                            <img class="g-col-4" src="assets/imgs/gallery/gallery-7.png" alt="inexa" />
+                        </div>
+                        <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                            <img class="g-col-4" src="assets/imgs/gallery/gallery-8.png" alt="inexa" />
+                        </div>
+                        <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                            <img class="g-col-4" src="assets/imgs/gallery/gallery-9.png" alt="inexa" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tcmobile__menu-bottom">
+                    <div class="contact-info">
+                        <ul class="list-wrap list-unstyled">
+                            <li><a href="mailto:info@inexa.com">contact@inexa.com</a></li>
+                            <li><a href="tel:0123456789">(229) 555-0109</a></li>
+                        </ul>
+                    </div>
+                    <div class="social-links">
+                        <ul class="list-wrap">
+                            <li>
+                                <a href="https://www.facebook.com/" class=" text-reset">
+                                    <i class="bi bi-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/" class=" text-reset">
+                                    <i class="bi bi-twitter-x"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/" class=" text-reset">
+                                    <i class="bi bi-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/" class=" text-reset">
+                                    <i class="bi bi-youtube"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="tcmobile__menu-backdrop"></div>
+        <!-- End Mobile Menu -->
+
+        <div class="offCanvas__overly"></div>
+        <!-- offCanvas-menu -->
+        <!-- Offcanvas menu -->
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions">
+            <div class="offcanvas-header">
+                <div class="offcanvas-close">
+                    <button class="close-btn" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fas fa-times"></i></button>
+                </div>
+            </div>
+            <div class="offcanvas-body">
+                <div class="offCanvas__logo mb-3">
+                    <a class="navbar-brand ms-lg-4 d-flex main-logo me-8" href="index.html">
+                        <img src="assets/imgs/logo/favicon.svg" alt="inexa" />
+                        <span class="text-dark">Inexa</span>
+                    </a>
+                </div>
+                <div class="offCanvas__side-info mb-4">
+                    <div class="contact-list mb-4">
+                        <h4>Office Address</h4>
+                        <p>
+                            123/A, Miranda City Likaoli <br />
+                            Prikano, Dope
+                        </p>
+                    </div>
+                    <div class="contact-list mb-4">
+                        <h4>Phone Number</h4>
+                        <p>+0989 7876 9865 9</p>
+                        <p>+(090) 8765 86543 85</p>
+                    </div>
+                    <div class="contact-list mb-4">
+                        <h4>Email Address</h4>
+                        <p>info@inexa.com</p>
+                        <p>contact@inexa.com</p>
+                    </div>
+                </div>
+                <div class="side-gallery mb-4">
+                    <div class="pt-1"></div>
+                    <h4 class="mt-3 mb-3">Gallery</h4>
+                    <div class="grid-items">
+                        <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                            <img class="g-col-4" src="assets/imgs/gallery/gallery-1.png" alt="inexa" />
+                        </div>
+                        <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                            <img class="g-col-4" src="assets/imgs/gallery/gallery-2.png" alt="inexa" />
+                        </div>
+                        <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                            <img class="g-col-4" src="assets/imgs/gallery/gallery-3.png" alt="inexa" />
+                        </div>
+                        <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                            <img class="g-col-4" src="assets/imgs/gallery/gallery-4.png" alt="inexa" />
+                        </div>
+                        <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                            <img class="g-col-4" src="assets/imgs/gallery/gallery-5.png" alt="inexa" />
+                        </div>
+                        <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                            <img class="g-col-4" src="assets/imgs/gallery/gallery-6.png" alt="inexa" />
+                        </div>
+                        <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                            <img class="g-col-4" src="assets/imgs/gallery/gallery-7.png" alt="inexa" />
+                        </div>
+                        <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                            <img class="g-col-4" src="assets/imgs/gallery/gallery-8.png" alt="inexa" />
+                        </div>
+                        <div class="zoom-img rounded-3 d-inline-flex overflow-hidden">
+                            <img class="g-col-4" src="assets/imgs/gallery/gallery-9.png" alt="inexa" />
+                        </div>
+                    </div>
+                </div>
+                <div class="offCanvas__social-icon mt-30">
+                    <h6 class="text-secondary">Follow me:</h6>
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://x.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.google.com/" target="_blank"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- Offcanvas menu -->
+
+    </header>
+
+    <main>
+        <!--blog list-->
+        <section class="blog_list_section1 bg-secondary-1 position-relative Z-0 overflow-hidden">
+            <div class="scroll-move-left">
+                <span class="stroke_light_lg wow img-custom-anim-right">inexa inexa</span>
+            </div>
+            <div class="text-center position-absolute top-50 start-50 translate-middle">
+                <h1 class="ds-2 lh-sm wow img-custom-anim-left">Blog-& insights</h1>
+            </div>
+        </section>
+        <div class="text-center text-uppercase position-relative z-1">
+            <div class="d-inline border border-primary-1 rounded-3 py-1 px-2 bg-white wow img-custom-anim-left">
+                <a class="text-secondary fs-7" href="#">Home</a>
+                &nbsp;<i class="fa-solid fa-angle-right text-dark fs-7"></i>&nbsp;
+                <span class="text-dark fs-7">Blog & Insights</span>
+            </div>
+        </div>
+        <section class="blog_list_section2 pt-120">
+            <div class="container position-relative">
+                <div class="swiper slider-6 pb-120 pb_md_350 pb_xs_530">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="position-relative">
+                                <img class="rounded-4 wow img-custom-anim-top" src="assets/imgs/background/img-blog-1.png" alt="inexa" />
+                                <div class="position-absolute start-0 top-50 bg-white border shadow p-5 mt-md-10 mt-8 mx-md-8 mx-4 rounded-4 w-lg-50 card-hover">
+                                    <a class="text-primary text-uppercase fs-7 px-2 py-1 border border-primary-1 rounded-3" href="blog-list.html">UI/UX Design</a>
+                                    <h1 class="ds-6"><a href="blog-details.html">From Wireframes to Wonders: The UI/UX Design Process</a></h1>
+                                    <p>
+                                        You may also realize cost savings from your energy efficient choices in your custom home. Federal tax credits for some green materials can allow you
+                                        to deduct as much.
+                                    </p>
+                                    <div class="d-flex align-items-center">
+                                        <img class="rounded-circle me-3" src="assets/imgs/avatar/avatar-9.png" alt="inexa" />
+                                        <h5 class="mb-0 fw-medium text-secondary"><a href="#">Jason Francisco</a></h5>
+                                        <p class="mb-0 ms-3">August 20, 2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="position-relative">
+                                <img class="rounded-4 wow img-custom-anim-top" src="assets/imgs/background/img-blog-1-1.png" alt="inexa" />
+                                <div class="position-absolute start-0 top-50 bg-white border shadow p-5 mt-md-10 mt-8 mx-md-8 mx-4 rounded-4 w-lg-50 card-hover">
+                                    <a class="text-primary text-uppercase fs-7 px-2 py-1 border border-primary-1 rounded-3" href="blog-list.html">UI/UX Design</a>
+                                    <h1 class="ds-6"><a href="blog-details.html">From Wireframes to Wonders: The UI/UX Design Process</a></h1>
+                                    <p>
+                                        You may also realize cost savings from your energy efficient choices in your custom home. Federal tax credits for some green materials can allow you
+                                        to deduct as much.
+                                    </p>
+                                    <div class="d-flex align-items-center">
+                                        <img class="rounded-circle me-3" src="assets/imgs/avatar/avatar-9.png" alt="inexa" />
+                                        <h5 class="mb-0 fw-medium text-secondary"><a href="#">Jason Francisco</a></h5>
+                                        <p class="mb-0 ms-3">August 20, 2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="position-relative">
+                                <img class="rounded-4 wow img-custom-anim-top" src="assets/imgs/background/img-blog-1.png" alt="inexa" />
+                                <div class="position-absolute start-0 top-50 bg-white border shadow p-5 mt-md-10 mt-8 mx-md-8 mx-4 rounded-4 w-lg-50 card-hover">
+                                    <a class="text-primary text-uppercase fs-7 px-2 py-1 border border-primary-1 rounded-3" href="blog-list.html">UI/UX Design</a>
+                                    <h1 class="ds-6"><a href="blog-details.html">From Wireframes to Wonders: The UI/UX Design Process</a></h1>
+                                    <p>
+                                        You may also realize cost savings from your energy efficient choices in your custom home. Federal tax credits for some green materials can allow you
+                                        to deduct as much.
+                                    </p>
+                                    <div class="d-flex align-items-center">
+                                        <img class="rounded-circle me-3" src="assets/imgs/avatar/avatar-9.png" alt="inexa" />
+                                        <h5 class="mb-0 fw-medium text-secondary"><a href="#">Jason Francisco</a></h5>
+                                        <p class="mb-0 ms-3">August 20, 2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="position-relative">
+                                <img class="rounded-4 wow img-custom-anim-top" src="assets/imgs/background/img-blog-1-1.png" alt="inexa" />
+                                <div class="position-absolute start-0 top-50 bg-white border shadow p-5 mt-md-10 mt-8 mx-md-8 mx-4 rounded-4 w-lg-50 card-hover">
+                                    <a class="text-primary text-uppercase fs-7 px-2 py-1 border border-primary-1 rounded-3" href="blog-list.html">UI/UX Design</a>
+                                    <h1 class="ds-6"><a href="blog-details.html">From Wireframes to Wonders: The UI/UX Design Process</a></h1>
+                                    <p>
+                                        You may also realize cost savings from your energy efficient choices in your custom home. Federal tax credits for some green materials can allow you
+                                        to deduct as much.
+                                    </p>
+                                    <div class="d-flex align-items-center">
+                                        <img class="rounded-circle me-3" src="assets/imgs/avatar/avatar-9.png" alt="inexa" />
+                                        <h5 class="mb-0 fw-medium text-secondary"><a href="#">Jason Francisco</a></h5>
+                                        <p class="mb-0 ms-3">August 20, 2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="position-absolute bottom-0 end-0 m-8 pb-120 d-none d-lg-block">
+                    <div class="d-flex gap-5">
+                        <div class="swiper-button-prev position-relative mt-0">
+                            <i class="bi bi-arrow-left"></i>
+                        </div>
+                        <div class="swiper-button-next position-relative mt-0">
+                            <i class="bi bi-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--blog list-->
+        <section class="section-padding">
+            <div class="text-center">
+                <span class="text-primary text-uppercase fs-7 px-2 py-1 border border-primary-1 rounded-3">Hot trend</span>
+                <h1 class="ds-5">Featured News Today</h1>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <!-- prettier-ignore -->
+                    <div class="col-md-4 wow img-custom-anim-top">
+                        <div class="position-relative hover-up my-5">
+                            <a href="blog-details.html"><img class="rounded-4 mb-3" src="assets/imgs/background/img-news-blog-1.png" alt="inexa" /></a>
+                            <span>Oct 12, 2024</span>
+                            <span>&nbsp;/&nbsp;</span>
+                            <span>By <a class="fw-bold text-dark" href="#">John Smith</a></span>
+                            <h4 class="mt-3"><a href="blog-details.html">Top Trends in Web Design for 2024: What You Need to Know</a></h4>
+                            <a class="text-white text-hover-white bg-primary position-absolute top-0 end-0 px-2 mt-4 me-5 rounded-3 text-uppercase fs-7" href="blog-list.html">web design</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow img-custom-anim-top">
+                        <div class="position-relative hover-up my-5">
+                            <a href="blog-details.html"><img class="rounded-4 mb-3" src="assets/imgs/background/img-news-blog-2.png" alt="inexa" /></a>
+                            <span>Sep 30, 2024</span>
+                            <span>&nbsp;/&nbsp;</span>
+                            <span>By <a class="fw-bold text-dark" href="#">Emily Davis</a></span>
+                            <h4 class="mt-3"><a href="blog-details.html">Mastering the Basics of Graphic Design: A Comprehensive Guide</a></h4>
+                            <a class="text-white text-hover-white bg-primary position-absolute top-0 end-0 px-2 mt-4 me-5 rounded-3 text-uppercase fs-7" href="blog-list.html">graphic design</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow img-custom-anim-top">
+                        <div class="position-relative hover-up my-5">
+                            <a href="blog-details.html"><img class="rounded-4 mb-3" src="assets/imgs/background/img-news-blog-3.png" alt="inexa" /></a>
+                            <span>Aug 15, 2024</span>
+                            <span>&nbsp;/&nbsp;</span>
+                            <span>By <a class="fw-bold text-dark" href="#">Michael Brown</a></span>
+                            <h4 class="mt-3"><a href="blog-details.html">UX/UI Design Principles for Modern Apps: Enhancing User Experience</a></h4>
+                            <a class="text-white text-hover-white bg-primary position-absolute top-0 end-0 px-2 mt-4 me-5 rounded-3 text-uppercase fs-7" href="blog-list.html">ux/ui</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow img-custom-anim-top">
+                        <div class="position-relative hover-up my-5">
+                            <a href="blog-details.html"><img class="rounded-4 mb-3" src="assets/imgs/background/img-news-blog-4.png" alt="inexa" /></a>
+                            <span>Jul 22, 2024</span>
+                            <span>&nbsp;/&nbsp;</span>
+                            <span>By <a class="fw-bold text-dark" href="#">Jessica Wilson</a></span>
+                            <h4 class="mt-3"><a href="blog-details.html">Building a Strong Brand Identity: Strategies and Tips</a></h4>
+                            <a class="text-white text-hover-white bg-primary position-absolute top-0 end-0 px-2 mt-4 me-5 rounded-3 text-uppercase fs-7" href="blog-list.html">branding</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow img-custom-anim-top">
+                        <div class="position-relative hover-up my-5">
+                            <a href="blog-details.html"><img class="rounded-4 mb-3" src="assets/imgs/background/img-news-blog-5.png" alt="inexa" /></a>
+                            <span>Jun 18, 2024</span>
+                            <span>&nbsp;/&nbsp;</span>
+                            <span>By <a class="fw-bold text-dark" href="#">David Clark</a></span>
+                            <h4 class="mt-3"><a href="blog-details.html">Digital Art Techniques for Beginners: Getting Started with Confidence</a></h4>
+                            <a class="text-white text-hover-white bg-primary position-absolute top-0 end-0 px-2 mt-4 me-5 rounded-3 text-uppercase fs-7" href="blog-list.html">digital art</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow img-custom-anim-top">
+                        <div class="position-relative hover-up my-5">
+                            <a href="blog-details.html"><img class="rounded-4 mb-3" src="assets/imgs/background/img-news-blog-6.png" alt="inexa" /></a>
+                            <span>May 10, 2024</span>
+                            <span>&nbsp;/&nbsp;</span>
+                            <span>By <a class="fw-bold text-dark" href="#">Sophia Martinez</a></span>
+                            <h4 class="mt-3"><a href="blog-details.html">Creating Stunning Illustrations: Tips and Tricks for Aspiring Artists</a></h4>
+                            <a class="text-white text-hover-white bg-primary position-absolute top-0 end-0 px-2 mt-4 me-5 rounded-3 text-uppercase fs-7" href="blog-list.html">illustration</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="text-center my-10">
+                    <img src="assets/imgs/background/img-news-banner.png" alt="inexa" />
+                </div>
+                <div class="row">
+                    <!-- prettier-ignore -->
+                    <div class="col-md-4 wow img-custom-anim-top">
+                        <div class="position-relative hover-up my-5">
+                            <a href="blog-details.html"><img class="rounded-4 mb-3" src="assets/imgs/background/img-news-blog-7.png" alt="inexa" /></a>
+                            <span>Dec 5, 2024</span>
+                            <span>&nbsp;/&nbsp;</span>
+                            <span>By <a class="fw-bold text-dark" href="#">Oliver Green</a></span>
+                            <h4 class="mt-3"><a href="blog-details.html">The Impact of Typography in Modern Design</a></h4>
+                            <a class="text-white text-hover-white bg-primary position-absolute top-0 end-0 px-2 mt-4 me-5 rounded-3 text-uppercase fs-7" href="blog-list.html">typography</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow img-custom-anim-top">
+                        <div class="position-relative hover-up my-5">
+                            <a href="blog-details.html"><img class="rounded-4 mb-3" src="assets/imgs/background/img-news-blog-8.png" alt="inexa" /></a>
+                            <span>Nov 28, 2024</span>
+                            <span>&nbsp;/&nbsp;</span>
+                            <span>By <a class="fw-bold text-dark" href="#">Samantha Lee</a></span>
+                            <h4 class="mt-3"><a href="blog-details.html">Creating Engaging Animations for Web and Mobile</a></h4>
+                            <a class="text-white text-hover-white bg-primary position-absolute top-0 end-0 px-2 mt-4 me-5 rounded-3 text-uppercase fs-7" href="blog-list.html">animation</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow img-custom-anim-top">
+                        <div class="position-relative hover-up my-5">
+                            <a href="blog-details.html"><img class="rounded-4 mb-3" src="assets/imgs/background/img-news-blog-9.png" alt="inexa" /></a>
+                            <span>Nov 15, 2024</span>
+                            <span>&nbsp;/&nbsp;</span>
+                            <span>By <a class="fw-bold text-dark" href="#">Brian Scott</a></span>
+                            <h4 class="mt-3"><a href="blog-details.html">Understanding Color Theory: A Guide for Designers</a></h4>
+                            <a class="text-white text-hover-white bg-primary position-absolute top-0 end-0 px-2 mt-4 me-5 rounded-3 text-uppercase fs-7" href="blog-list.html">color theory</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow img-custom-anim-top">
+                        <div class="position-relative hover-up my-5">
+                            <a href="blog-details.html"><img class="rounded-4 mb-3" src="assets/imgs/background/img-news-blog-10.png" alt="inexa" /></a>
+                            <span>Nov 10, 2024</span>
+                            <span>&nbsp;/&nbsp;</span>
+                            <span>By <a class="fw-bold text-dark" href="#">Laura Adams</a></span>
+                            <h4 class="mt-3"><a href="blog-details.html">Photography Tips for Designers: Enhancing Your Visual Content</a></h4>
+                            <a class="text-white text-hover-white bg-primary position-absolute top-0 end-0 px-2 mt-4 me-5 rounded-3 text-uppercase fs-7" href="blog-list.html">photography</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow img-custom-anim-top">
+                        <div class="position-relative hover-up my-5">
+                            <a href="blog-details.html"><img class="rounded-4 mb-3" src="assets/imgs/background/img-news-blog-11.png" alt="inexa" /></a>
+                            <span>Nov 3, 2024</span>
+                            <span>&nbsp;/&nbsp;</span>
+                            <span>By <a class="fw-bold text-dark" href="#">Daniel Harris</a></span>
+                            <h4 class="mt-3"><a href="blog-details.html">Making Your Website Accessible: Best Practices for Designers</a></h4>
+                            <a class="text-white text-hover-white bg-primary position-absolute top-0 end-0 px-2 mt-4 me-5 rounded-3 text-uppercase fs-7" href="blog-list.html">web accessibility</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow img-custom-anim-top">
+                        <div class="position-relative hover-up my-5">
+                            <a href="blog-details.html"><img class="rounded-4 mb-3" src="assets/imgs/background/img-news-blog-12.png" alt="inexa" /></a>
+                            <span>Oct 25, 2024</span>
+                            <span>&nbsp;/&nbsp;</span>
+                            <span>By <a class="fw-bold text-dark" href="#">Megan Foster</a></span>
+                            <h4 class="mt-3"><a href="blog-details.html">The Importance of Consistent Branding in Design</a></h4>
+                            <a class="text-white text-hover-white bg-primary position-absolute top-0 end-0 px-2 mt-4 me-5 rounded-3 text-uppercase fs-7" href="blog-list.html">branding</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow img-custom-anim-top">
+                        <div class="position-relative hover-up my-5">
+                            <a href="blog-details.html"><img class="rounded-4 mb-3" src="assets/imgs/background/img-news-blog-13.png" alt="inexa" /></a>
+                            <span>Oct 18, 2024</span>
+                            <span>&nbsp;/&nbsp;</span>
+                            <span>By <a class="fw-bold text-dark" href="#">Nathaniel Wright</a></span>
+                            <h4 class="mt-3"><a href="blog-details.html">Innovative Illustration Techniques for Digital Artists</a></h4>
+                            <a class="text-white text-hover-white bg-primary position-absolute top-0 end-0 px-2 mt-4 me-5 rounded-3 text-uppercase fs-7" href="blog-list.html">illustration</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow img-custom-anim-top">
+                        <div class="position-relative hover-up my-5">
+                            <a href="blog-details.html"><img class="rounded-4 mb-3" src="assets/imgs/background/img-news-blog-14.png" alt="inexa" /></a>
+                            <span>Oct 8, 2024</span>
+                            <span>&nbsp;/&nbsp;</span>
+                            <span>By <a class="fw-bold text-dark" href="#">Olivia Parker</a></span>
+                            <h4 class="mt-3"><a href="blog-details.html">Graphic Design Trends to Watch in 2024</a></h4>
+                            <a class="text-white text-hover-white bg-primary position-absolute top-0 end-0 px-2 mt-4 me-5 rounded-3 text-uppercase fs-7" href="blog-list.html">graphic design</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow img-custom-anim-top">
+                        <div class="position-relative hover-up my-5">
+                            <a href="blog-details.html"><img class="rounded-4 mb-3" src="assets/imgs/background/img-news-blog-15.png" alt="inexa" /></a>
+                            <span>Sep 30, 2024</span>
+                            <span>&nbsp;/&nbsp;</span>
+                            <span>By <a class="fw-bold text-dark" href="#">Ethan Bennett</a></span>
+                            <h4 class="mt-3"><a href="blog-details.html">The Future of UX/UI Design: What to Expect</a></h4>
+                            <a class="text-white text-hover-white bg-primary position-absolute top-0 end-0 px-2 mt-4 me-5 rounded-3 text-uppercase fs-7" href="blog-list.html">ux/ui</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row pt-5 text-center">
+                    <div class="d-flex justify-content-center">
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination gap-2">
+                                <li class="page-item">
+                                    <a class="icon-xl page-link pagination_item border rounded-circle icon-shape fw-bold text-dark" href="#" aria-label="Previous"><i class="bi bi-chevron-left"></i></a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="icon-xl page-link pagination_item border rounded-circle icon-shape fw-bold text-dark" href="#">1</a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="icon-xl page-link pagination_item border rounded-circle icon-shape fw-bold text-dark" href="#">2</a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="icon-xl page-link pagination_item border rounded-circle icon-shape fw-bold text-dark" href="#">3</a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="icon-xl page-link pagination_item border rounded-circle icon-shape fw-bold text-dark" href="#">...</a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="icon-xl page-link pagination_item border rounded-circle icon-shape fw-bold text-dark" href="#" aria-label="Next"><i class="bi bi-chevron-right"></i></a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-home1 bg-primary bg-primary-dark pt-120">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h5 class="text-white fs-2 pe-5 mb-5 mb-lg-0 wow img-custom-anim-left">
+                            For more than 10 years, we have been using graphic design & websites to bring brands to life. Inexa is always on the lookout for talent.
+                        </h5>
+                    </div>
+                    <div class="col-lg-5 offset-lg-1">
+                        <div class="row">
+                            <div class="col ms-md-8 ms-3 ms-lg-0 wow img-custom-anim-top">
+                                <h4 class="text-white mb-5">Essectial</h4>
+                                <ul class="list-unstyled">
+                                    <li class=" mb-3">
+                                        <a href="index.html">
+                                            <p class=" text-white">Home</p>
+                                        </a>
+                                    </li>
+                                    <li class=" mb-3">
+                                        <a href="#">
+                                            <p class=" text-white">About</p>
+                                        </a>
+                                    </li>
+                                    <li class=" mb-3">
+                                        <a href="#">
+                                            <p class=" text-white">Services</p>
+                                        </a>
+                                    </li>
+                                    <li class=" mb-3">
+                                        <a href="#">
+                                            <p class=" text-white">Pricing</p>
+                                        </a>
+                                    </li>
+                                    <li class=" mb-3">
+                                        <a href="faq.html">
+                                            <p class=" text-white">FAQ</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col ps-md-8 wow img-custom-anim-top">
+                                <h4 class="text-white mb-5">Get in touch</h4>
+                                <a href="tel:+12345678900" class="d-flex align-items-start mb-3">
+                                    <i class="fa-solid fa-phone-flip me-3 text-white"></i>
+                                    <p class=" text-white mb-0">+8801766823304</p>
+                                </a>
+                                <a href="mailto:hello@inexa" class="d-flex align-items-start mb-3">
+                                    <i class="fa-solid fa-envelope-open-text me-3 text-white"></i>
+                                    <p class=" text-white mb-0">dev.alaminakon@gmail.com</p>
+                                </a>
+                                <a href="https://www.google.com/maps" class="d-flex align-items-start mb-3">
+                                    <i class="fa-solid fa-location-dot me-3 text-white"></i>
+                                    <p class=" text-white mb-0">12/A, New Booston Tower,<br />NYC, USA</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="position-relative">
+                    <h1 class="fs-230 text-white lh-1 mb-0 wow img-custom-anim-left">Get in touch!</h1>
+                    <div class="position-absolute top-0 end-0 me-8 translate-middle-y">
+                        <a href="get-quote.html" class="text-white card-hover icon-shape rounded-circle icon_140 bg-primary-dark">let’s talk</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="d-flex shadow rounded-start-4 rounded-end-4 border overflow-hidden">
+                            <a href="https://www.behance.net" target="_blank" class="border-0 border-start border-end d-flex align-items-center btn btn-outline-secondary text-start w-100 rounded-0 fs-7">
+                                Behance
+                                <i class="fa-brands fa-behance ms-auto"></i>
+                            </a>
+                            <a href="https://dribbble.com" target="_blank" class="border-0 border-start border-end d-flex align-items-center btn btn-outline-secondary text-start w-100 rounded-0 fs-7">
+                                Dribbble
+                                <i class="fa-brands fa-dribbble ms-auto"></i>
+                            </a>
+                            <a href="https://x.com" target="_blank" class="d-none d-md-block border-0 border-start border-end d-flex align-items-center btn btn-outline-secondary text-start w-100 rounded-0 fs-7">
+                                Twitter
+                                <i class="fa-brands fa-x-twitter ms-auto"></i>
+                            </a>
+                            <a href="https://www.linkedin.com" target="_blank" class="d-none d-md-block border-0 border-start border-end d-flex align-items-center btn btn-outline-secondary text-start w-100 rounded-0 fs-7">
+                                Linkedin
+                                <i class="fa-brands fa-linkedin ms-auto"></i>
+                            </a>
+                            <a href="https://www.youtube.com" target="_blank" class="border-0 border-start border-end d-flex align-items-center btn btn-outline-secondary text-start w-100 rounded-0 fs-7">
+                                Youtube
+                                <i class="fa-brands fa-youtube ms-auto"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-secondary">
+                    <div class="col py-5 d-flex justify-content-center">
+                        <p class="small text-primary-light mb-0">
+                            Copyright & Design &nbsp;<a class="fw-bold text-white text-hover-white" href="https://alithemes.com" target="_blank">@AliThemes</a>&nbsp;-&nbsp;2024
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll top -->
+    <div class="btn-scroll-top">
+        <svg class="progress-square svg-content" width="100%" height="100%" viewBox="0 0 40 40">
+            <path d="M8 1H32C35.866 1 39 4.13401 39 8V32C39 35.866 35.866 39 32 39H8C4.13401 39 1 35.866 1 32V8C1 4.13401 4.13401 1 8 1Z" />
+        </svg>
+    </div>
+
+    <!-- Libs JS -->
+    <script src="assets/js/vendors/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/vendors/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/vendors/swiper-bundle.min.js"></script>
+    <script src="assets/js/vendors/aos.js"></script>
+    <script src="assets/js/vendors/wow.min.js"></script>
+    <script src="assets/js/vendors/jquery.appear.js"></script>
+    <script src="assets/js/vendors/jquery.odometer.min.js"></script>
+    <script src="assets/js/vendors/headhesive.min.js"></script>
+    <script src="assets/js/vendors/smart-stick-nav.js"></script>
+    <script src="assets/js/vendors/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/vendors/gsap.min.js"></script>
+    <script src="assets/js/vendors/ScrollToPlugin.min.js"></script>
+    <script src="assets/js/vendors/ScrollTrigger.min.js"></script>
+    <script src="assets/js/vendors/custom-cursor.js"></script>
+    <script src="assets/js/vendors/jquery.carouselTicker.min.js"></script>
+    <script src="assets/js/vendors/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/vendors/isotope.pkgd.min.js"></script>
+    <!-- Theme JS -->
+    <script src="assets/js/gsap-custom.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <!-- Other scripts -->
+</body>
+
+</html>
