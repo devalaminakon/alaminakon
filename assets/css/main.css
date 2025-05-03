@@ -12993,6 +12993,11 @@ a.text-hover-white:hover {
 }
 .home1_section1 {
   padding-top: 138px;
+  background-image: url(../imgs/background/alamin\ banner\ \(2\).png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .scroll-wrapper {
