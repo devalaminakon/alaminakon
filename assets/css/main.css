@@ -2660,7 +2660,7 @@ img {
 /*=============================
 Preloader
 ===============================*/
-#preloader {
+/* #preloader {
   height: 100%;
   width: 100%;
   position: fixed;
@@ -2695,7 +2695,7 @@ Preloader
 }
 #preloader.black-bg .loader-icon, #preloader.black2-bg .loader-icon {
   filter: brightness(99) grayscale(9);
-}
+} */
 
 @keyframes loaderspin {
   0% {
